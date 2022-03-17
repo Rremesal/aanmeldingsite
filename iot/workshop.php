@@ -108,7 +108,7 @@
                 } else { 
                     //query opstellen met als waardes de gegevens uit het formulier    
                     $query2 = "INSERT INTO applicants (`name`,salutation,gender,`address`,zipcode,residence,phonenumber,email,`date`,amount,cost) VALUES".
-                    "('$name', '$salutation', '$gender', '$address', '$zipcode' , '$residence', '$phonenumber', '$email' , '$date' , $amount, $cost)";
+                    "('$name', '$salutation', '$gender', '$address', '$zipcode' , '$residence', '$phonenumber', '$email' , '$date' , $amount, '$cost')";
                     //query voorbereiden voor uitvoer
                     $stm = $conn->prepare($query2);
                     //voert het statement uit en als deze succesvol is uitgevoerd toon melding op scherm, zo niet toon andere melding
