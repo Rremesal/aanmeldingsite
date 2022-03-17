@@ -1,0 +1,81 @@
+
+
+body {
+    background-color:rgb(96, 244, 145);
+    color: mediumblue;
+}
+
+h1 {
+    color: mediumblue;
+}
+
+
+input {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    background-color: lightgrey;
+}
+
+input[name="naam"] {
+    margin-left: 53px;
+}
+
+input[name="aanhef"] {
+    margin-left: 44px;
+}
+
+input[name="radio1"] {
+    margin-left: 13px;
+}
+
+
+input[name="postcode"] {
+    margin-left: 34px;
+}
+
+input[name="woonplaats"] {
+    margin-left: 14px;
+}
+
+input[name="tel"] {
+    margin-left: 21px;
+}
+
+input[name="email"],input[name="adres"] {
+    margin-left: 54px;
+}
+
+input[type="checkbox"]{
+    margin-left: 60px;
+}
+
+select {
+    margin-left: 25px;
+}
+
+input[type="submit"] {
+    margin-left: 70%;
+    
+    
+}
+
+.form {
+    background-color:#60B0F4;
+    width: 24%;
+    border-radius: 1%;
+    padding-top: 3px;
+}
+
+.post {
+    width: 25%;
+    float: left;
+}
+
+.lijst {
+    color: purple;
+    width: 25%;
+    float: right;
+    margin-right: 50%;
+    
+}
+
