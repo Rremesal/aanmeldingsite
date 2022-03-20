@@ -16,6 +16,7 @@ input {
     background-color: lightgrey;
 }
 
+
 input[name="naam"] {
     margin-left: 53px;
 }
@@ -77,5 +78,14 @@ input[type="submit"] {
     float: right;
     margin-right: 50%;
     
+}
+
+#overview {
+    background-color:rgb(96, 244, 145);
+    color: mediumblue;
+}
+
+#btnSearch {
+    margin-left: 3px
 }
 
